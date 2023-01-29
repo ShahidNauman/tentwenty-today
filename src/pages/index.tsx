@@ -1,9 +1,9 @@
-import styles from "../styles/index.module.scss";
+import styles from "../styles/Home.module.scss";
 
-function HomePage() {
+function Home() {
   return (
     <div style={{ color: styles.primaryTextColor }}>Welcome to Next.js!</div>
   );
 }
 
-export default HomePage;
+export default Home;
