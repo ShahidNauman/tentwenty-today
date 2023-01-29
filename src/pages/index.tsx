@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "@/styles/Home.module.scss";
 
 function Home() {
@@ -13,7 +14,7 @@ function Home() {
       </Head>
       <header>
         <div className={styles.logo}>
-          <a href='/'>
+          <Link href='/'>
             <Image
               src='images/today_logo.svg'
               alt='Today Logo'
@@ -21,7 +22,7 @@ function Home() {
               height={65}
               priority
             />
-          </a>
+          </Link>
         </div>
       </header>
     </>
