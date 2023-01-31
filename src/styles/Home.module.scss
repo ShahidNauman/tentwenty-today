@@ -1,9 +1,9 @@
 @import "variables";
 
-.logo {
-  text-align: center;
-}
-
 // :export {
 //   primaryTextColor: $primary-text-color;
 // }
+
+.textPlayfairDisplay {
+  font-family: $font-playfair-display;
+}
