@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "variables";
+
+.body {
+  background-color: $primary-bg-color;
+  color: $primary-text-color;
+  font-family: $font-roboto;
+}
+
+.dark .dark\:body {
+  background-color: $primary-bg-color-dark;
+  color: $primary-text-color-dark;
+}
